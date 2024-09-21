@@ -1,0 +1,23 @@
+1.pip install django
+
+2.django-admin s
+
+3.python manage.py runserver
+
+4.同步資料表
+python manage.py migrate
+
+5.
+python manage.py createsuperuser
+
+6.
+python manage.py startapp user
+
+
+
+
+
+
+
+建立一個Django01專案
+git remote add origin https://github.com/xiujiechan/Django01.git
