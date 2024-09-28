@@ -2,17 +2,24 @@
 
 2.django-admin s
 
-3.python manage.py runserver
+3.python manage.py runserver  每次都要runserver
 
 4.同步資料表
 python manage.py migrate
 
-5.
+5.建立超級使用者   (唯一權限者使用)
 python manage.py createsuperuser
 
-6.
+6.新增功能
 python manage.py startapp user
+新增urls.py
+	分配功能內的url
 
+password
+	settings.py(設定用)
+        urls.py
+              綁定功能的urls.py
+              path("",include("user.urls"))
 
 
 
